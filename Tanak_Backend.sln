@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tanak_Backend", "Tanak_Backend\Tanak_Backend.csproj", "{7993A42A-237D-4990-8B92-4020D99A9E13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TanakBackend_InfraStructure", "TanakBackend_InfraStructure\TanakBackend_InfraStructure.csproj", "{458223E2-C509-4E5B-ABE4-81859AC8D821}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TanakBackend.Domain", "TanakBackend.Domain\TanakBackend.Domain.csproj", "{8DDAF2C1-D1D0-4359-AB58-46B813F2973B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TanakBackend.ApplicationService", "TanakBackend.ApplicationService\TanakBackend.ApplicationService.csproj", "{D00B8142-E846-4540-888A-00E6E8FD219C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TanakBackend_ApplicationsService.Contract", "TanakBacked_ApplicationsService.Contract\TanakBackend_ApplicationsService.Contract.csproj", "{AAB34AE1-4FF0-4DE0-8657-8A4F455D238B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7993A42A-237D-4990-8B92-4020D99A9E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7993A42A-237D-4990-8B92-4020D99A9E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7993A42A-237D-4990-8B92-4020D99A9E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7993A42A-237D-4990-8B92-4020D99A9E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{458223E2-C509-4E5B-ABE4-81859AC8D821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{458223E2-C509-4E5B-ABE4-81859AC8D821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{458223E2-C509-4E5B-ABE4-81859AC8D821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{458223E2-C509-4E5B-ABE4-81859AC8D821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DDAF2C1-D1D0-4359-AB58-46B813F2973B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DDAF2C1-D1D0-4359-AB58-46B813F2973B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DDAF2C1-D1D0-4359-AB58-46B813F2973B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DDAF2C1-D1D0-4359-AB58-46B813F2973B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D00B8142-E846-4540-888A-00E6E8FD219C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D00B8142-E846-4540-888A-00E6E8FD219C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D00B8142-E846-4540-888A-00E6E8FD219C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D00B8142-E846-4540-888A-00E6E8FD219C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB34AE1-4FF0-4DE0-8657-8A4F455D238B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB34AE1-4FF0-4DE0-8657-8A4F455D238B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB34AE1-4FF0-4DE0-8657-8A4F455D238B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB34AE1-4FF0-4DE0-8657-8A4F455D238B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6B78DAF-309E-4DDB-866D-007EAF712C70}
+	EndGlobalSection
+EndGlobal
