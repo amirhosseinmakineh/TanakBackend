@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using TanakBackend.ApplicationService.Services;
 using TanakBackend.Domain.IRepositoryies;
+using TanakBackend_ApplicationsService.Contract.ConfigurationDtos;
 using TanakBackend_InfraStructure.Context;
 using TanakBackend_InfraStructure.Repositories;
 
@@ -9,6 +10,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 var app = builder.Build();
+#region CdnConfiguration
+builder.Configuration.GetSection("SliderImagesCdn").Bind(new CdnConfiguration());
+#endregion
 #region Register Services
 builder.Services.AddScoped<CategoryService, CategoryService>();
 #endregion
