@@ -21,7 +21,9 @@ namespace TanakBackend.ApplicationService.Services
                              {
                                  Description = category.Description,
                                  ParentId = category.PrentId,
-                                 Title = category.Title
+                                 Title = category.Title,
+                                 ParentName = category.ParentCategory.Title,
+                                 HasChild = category.Categories.Any()
                              };
            return categories.ToList();
         }

@@ -9,5 +9,6 @@ namespace TanakBackend_InfraStructure.Context
         {
         }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Slider> Sliders { get; set; }
     }
 }
